@@ -10,13 +10,27 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        VStack{
-            HStack{
+//        VStack{
+//                Text("VStack01Text").padding()
+//                Text("VStack01Text").padding()
+//                Text("VStack03Text").padding()
+//
+//            HStack{
+//                Text("VStack01Text").padding()
+//                Text("VStack02Text").padding()
+//                Text("VStack03Text").padding()
+//            }
+//        }
+        
+        HStack{
+            
+            VStack{
                 Text("VStack01Text").padding()
-                Text("VStack02Text").padding()
+                Text("VStack01Text").padding()
                 Text("VStack03Text").padding()
             }
-            HStack{
+            
+            VStack{
                 Text("VStack01Text").padding()
                 Text("VStack02Text").padding()
                 Text("VStack03Text").padding()
