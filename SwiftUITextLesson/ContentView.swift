@@ -11,11 +11,19 @@ struct ContentView: View {
     var body: some View {
         
         VStack{
-            Text("VStack01Text").padding()
-            Text("VStack02Text").padding()
-            Text("VStack03Text").padding()
-                
+            HStack{
+                Text("VStack01Text").padding()
+                Text("VStack02Text").padding()
+                Text("VStack03Text").padding()
+            }
+            HStack{
+                Text("VStack01Text").padding()
+                Text("VStack02Text").padding()
+                Text("VStack03Text").padding()
+            }
         }
+        
+        
         
     }
 }
@@ -23,5 +31,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        
     }
 }
